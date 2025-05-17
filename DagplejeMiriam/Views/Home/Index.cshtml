@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Miriams Dagpleje</title>
+        <link rel="stylesheet" href="~/css/DagplejeStyle.css" />
+    </head>
+    <body>
+        <h1 id="header">Velkommen til Miriams Dagpleje</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li>
+                            <button onclick="location.href='/Home/Index'">Hjem</button>
+                        </li>
+                        <li>
+                            <button onclick="location.href='/Home/Hverdag'">Hverdag</button>
+                        </li>
+                        <li>
+                            <button onclick="location.href='/Home/Kost'">Kost</button>
+                        </li>
+                        <li>
+                            <button onclick="location.href='/Home/Mig'">Hvorfor vælge mig?</button>
+                        </li>
+                        <li>
+                            <button onclick="location.href='/Home/Omgivelser'">Omgivelser</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <p id="introtekst">Introduktion her</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
